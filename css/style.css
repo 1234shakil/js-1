@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(#3004048a,#900c0c8a), url(./../img/vwie.lnk);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width:100vw ;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 505px;
+    height: 55px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 32px;
+    border: none;
+    border-radius: 30px;
+    border-bottom: 1px solid #cf93938a;
+    text-align: center;
+}
+input:hover{
+    border: none;
+    border-radius: 30px;
+    border-bottom: 1px solid #cf93938a;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin: 40px auto;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: burlywood;
+    cursor: pointer;
+}
+::placeholder{
+    text-align: center;
+    color: antiquewhite;
+}
+
+h1{
+    color: aqua;
+    padding: 20px 0;
+    width: 250px;
+    height: 30px;
+    border: 1px solid burlywood;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
